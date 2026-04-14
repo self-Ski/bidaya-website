@@ -23,7 +23,6 @@
 html{scroll-behavior:smooth}
 body{font-family:'Plus Jakarta Sans',sans-serif;color:var(--navy);background:var(--bg);overflow-x:hidden;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
-
 /* NAV */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:16px 0;transition:all .3s}
 nav.scrolled{background:rgba(255,255,255,.95);backdrop-filter:blur(20px);box-shadow:0 1px 3px rgba(0,0,0,.08)}
@@ -35,7 +34,6 @@ nav.scrolled{background:rgba(255,255,255,.95);backdrop-filter:blur(20px);box-sha
 .nav-links a:hover{color:var(--green)}
 .nav-cta{background:var(--green);color:white!important;padding:10px 24px;border-radius:50px;font-weight:600;transition:transform .2s,box-shadow .2s}
 .nav-cta:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(16,185,129,.4)}
-
 /* HERO */
 .hero{min-height:100vh;display:flex;align-items:center;padding:120px 24px 80px;background:linear-gradient(135deg,#ECFDF5 0%,#F0F9FF 50%,#FFF7ED 100%);position:relative;overflow:hidden}
 .hero::before{content:'';position:absolute;top:-200px;right:-200px;width:600px;height:600px;background:radial-gradient(circle,rgba(16,185,129,.08) 0%,transparent 70%);border-radius:50%}
@@ -74,7 +72,6 @@ h1 .accent{color:var(--green)}
 .float-card .fc-value.green{color:var(--green)}
 .float-card .fc-value.orange{color:var(--orange)}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
-
 /* FEATURES */
 .features{padding:100px 24px;background:var(--white)}
 .section-inner{max-width:1200px;margin:0 auto}
@@ -93,7 +90,6 @@ h1 .accent{color:var(--green)}
 .feature-icon.teal{background:rgba(20,184,166,.1);color:#14B8A6}
 .feature-card h3{font-size:18px;font-weight:700;margin-bottom:10px;color:var(--gray-900)}
 .feature-card p{font-size:14px;color:var(--gray-500);line-height:1.7}
-
 /* BRANCHES */
 .branches{padding:100px 24px;background:var(--gray-50)}
 .branches-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
@@ -102,7 +98,6 @@ h1 .accent{color:var(--green)}
 .branch-chip .emoji{font-size:28px;margin-bottom:8px;display:block}
 .branch-chip .name{font-size:14px;font-weight:700;color:var(--navy)}
 .branch-chip .detail{font-size:12px;color:var(--gray-500);margin-top:4px}
-
 /* PRICING */
 .pricing{padding:100px 24px;background:var(--white)}
 .pricing-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:800px;margin:0 auto}
@@ -116,7 +111,6 @@ h1 .accent{color:var(--green)}
 .price-features{list-style:none;margin-bottom:32px}
 .price-features li{padding:8px 0;font-size:14px;color:var(--gray-600);display:flex;align-items:center;gap:10px}
 .price-features li::before{content:'✓';color:var(--green);font-weight:700;font-size:16px}
-
 /* LEGAL PAGES */
 .legal-page{display:none;padding:120px 24px 80px;max-width:800px;margin:0 auto}
 .legal-page.active{display:block}
@@ -124,7 +118,6 @@ h1 .accent{color:var(--green)}
 .legal-page .date{font-size:14px;color:var(--gray-500);margin-bottom:40px}
 .legal-page h2{font-size:20px;font-weight:700;color:var(--gray-900);margin-top:40px;margin-bottom:12px}
 .legal-page p{font-size:15px;line-height:1.8;color:var(--gray-600);margin-bottom:16px}
-
 /* SUPPORT */
 .support{padding:100px 24px;background:var(--gray-50)}
 .support-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:900px;margin:0 auto}
@@ -133,7 +126,6 @@ h1 .accent{color:var(--green)}
 .support-card h3{font-size:16px;font-weight:700;margin-bottom:8px}
 .support-card p{font-size:14px;color:var(--gray-500);line-height:1.6}
 .support-card a{color:var(--green);font-weight:600;display:inline-block;margin-top:12px}
-
 /* FOOTER */
 footer{background:var(--navy);color:white;padding:60px 24px 30px}
 .footer-inner{max-width:1200px;margin:0 auto}
@@ -144,14 +136,12 @@ footer{background:var(--navy);color:white;padding:60px 24px 30px}
 .footer-col a:hover{color:var(--green)}
 .footer-bottom{border-top:1px solid var(--navy-light);padding-top:24px;display:flex;justify-content:space-between;align-items:center}
 .footer-bottom p{font-size:13px;color:var(--gray-500)}
-
 /* CTA */
 .cta-section{padding:100px 24px;background:linear-gradient(135deg,var(--green) 0%,#059669 100%);text-align:center;color:white}
 .cta-section h2{font-size:clamp(28px,4vw,40px);font-weight:800;margin-bottom:16px}
 .cta-section p{font-size:18px;opacity:.9;margin-bottom:36px;max-width:500px;margin-left:auto;margin-right:auto}
 .btn-white{background:white;color:var(--green);padding:16px 36px;border-radius:50px;font-weight:700;font-size:16px;border:none;cursor:pointer;transition:all .2s}
 .btn-white:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.2)}
-
 /* RESPONSIVE */
 @media(max-width:900px){
 .hero-inner{grid-template-columns:1fr;text-align:center}
@@ -169,7 +159,6 @@ footer{background:var(--navy);color:white;padding:60px 24px 30px}
 </style>
 </head>
 <body>
-
 <!-- NAV -->
 <nav id="navbar">
 <div class="nav-inner">
@@ -183,10 +172,8 @@ footer{background:var(--navy);color:white;padding:60px 24px 30px}
 </div>
 </div>
 </nav>
-
 <!-- HOME CONTENT -->
 <div id="home-content">
-
 <!-- HERO -->
 <section class="hero">
 <div class="hero-inner">
@@ -202,8 +189,8 @@ Télécharger gratuitement
 <a href="#features" class="btn-secondary">Découvrir</a>
 </div>
 <div class="hero-stats">
-<div class="stat"><div class="stat-num">2,160+</div><div class="stat-label">Questions de quiz</div></div>
-<div class="stat"><div class="stat-num">1,069</div><div class="stat-label">Fiches L'essentiel</div></div>
+<div class="stat"><div class="stat-num">2,500+</div><div class="stat-label">Questions de quiz</div></div>
+<div class="stat"><div class="stat-num">1,047</div><div class="stat-label">Fiches L'essentiel</div></div>
 <div class="stat"><div class="stat-num">8</div><div class="stat-label">Filières couvertes</div></div>
 </div>
 </div>
@@ -225,7 +212,7 @@ Télécharger gratuitement
 </div>
 <div class="phone-card">
 <div class="phone-card-icon" style="background:rgba(245,158,11,.1);color:var(--orange)">🔁</div>
-<div class="phone-card-text"><h4>Répétition espacée</h4><p>Revois tes erreurs</p></div>
+<div class="phone-card-text"><h4>Révision des erreurs</h4><p>Revois tes erreurs</p></div>
 </div>
 <div class="phone-card">
 <div class="phone-card-icon" style="background:rgba(139,92,246,.1);color:#8B5CF6">🧭</div>
@@ -239,7 +226,6 @@ Télécharger gratuitement
 </div>
 </div>
 </section>
-
 <!-- FEATURES -->
 <section class="features" id="features">
 <div class="section-inner">
@@ -250,12 +236,12 @@ Télécharger gratuitement
 <div class="feature-card">
 <div class="feature-icon green">📝</div>
 <h3>Quiz interactifs</h3>
-<p>2,160+ questions avec explications détaillées. Swipe pour répondre. Révise chaque chapitre de ton programme.</p>
+<p>2,500+ questions avec explications détaillées. Swipe pour répondre. Révise chaque chapitre de ton programme.</p>
 </div>
 <div class="feature-card">
 <div class="feature-icon blue">📖</div>
 <h3>Fiches L'essentiel</h3>
-<p>1,069 fiches de révision couvrant chaque concept clé. Formules, définitions et exemples concrets.</p>
+<p>1,047 fiches de révision couvrant chaque concept clé. Formules, définitions et exemples concrets.</p>
 </div>
 <div class="feature-card">
 <div class="feature-icon orange">📋</div>
@@ -280,7 +266,6 @@ Télécharger gratuitement
 </div>
 </div>
 </section>
-
 <!-- BRANCHES -->
 <section class="branches" id="branches">
 <div class="section-inner">
@@ -299,7 +284,6 @@ Télécharger gratuitement
 </div>
 </div>
 </section>
-
 <!-- PRICING -->
 <section class="pricing" id="pricing">
 <div class="section-inner">
@@ -321,8 +305,8 @@ Télécharger gratuitement
 </div>
 <div class="price-card premium">
 <h3>Bidaya+</h3>
-<div class="price">29 DH<span>/mois</span></div>
-<div class="price-sub">ou 149 DH/an — économise 40%</div>
+<div class="price">29.99 DH<span>/mois</span></div>
+<div class="price-sub">ou 149.99 DH/an — économise 58%</div>
 <ul class="price-features">
 <li>Quiz illimités</li>
 <li>Zéro publicité</li>
@@ -335,7 +319,6 @@ Télécharger gratuitement
 </div>
 </div>
 </section>
-
 <!-- SUPPORT -->
 <section class="support" id="support-section">
 <div class="section-inner">
@@ -363,40 +346,38 @@ Télécharger gratuitement
 </div>
 </div>
 </section>
-
 <!-- CTA -->
 <section class="cta-section">
 <h2>Prêt à réussir ton Bac ?</h2>
 <p>Rejoins des milliers d'étudiants qui révisent avec Bidaya chaque jour.</p>
 <a href="#" class="btn-white">Télécharger Bidaya — C'est gratuit</a>
 </section>
-
 </div>
-
 <!-- PRIVACY POLICY PAGE -->
 <div id="privacy-page" class="legal-page">
 <h1>Politique de Confidentialité</h1>
-<p class="date">Dernière mise à jour : 12 avril 2026</p>
+<p class="date">Dernière mise à jour : 14 avril 2026</p>
 <p>Bidaya ("nous", "notre", "l'application") est une application mobile d'aide à la révision et à l'orientation scolaire destinée aux élèves du baccalauréat marocain. La protection de vos données personnelles est une priorité.</p>
 <h2>1. Données collectées</h2>
 <p><strong>Données de compte :</strong> adresse e-mail, nom complet (optionnel), ville, lycée (optionnel), filière scolaire, langue préférée.</p>
+<p><strong>Données d'authentification sociale :</strong> lors de la connexion via Google ou Apple, nous recevons uniquement votre nom et adresse e-mail pour créer votre compte. Nous n'accédons pas à vos contacts, calendrier ou autres données.</p>
 <p><strong>Données d'utilisation :</strong> résultats de quiz, progression dans les leçons, score XP, streak, participation aux défis, résultats du tawjih.</p>
 <p><strong>Données techniques :</strong> identifiant d'appareil anonyme, système d'exploitation, version de l'application, jeton de notification push.</p>
 <p><strong>Données publicitaires :</strong> identifiant publicitaire fourni par Google AdMob pour afficher des publicités pertinentes aux utilisateurs gratuits.</p>
 <h2>2. Utilisation des données</h2>
 <p>Vos données sont utilisées exclusivement pour : créer et gérer votre compte, sauvegarder votre progression, générer des recommandations d'orientation personnalisées, afficher votre position dans les classements, envoyer des notifications de rappel, afficher des publicités via Google AdMob pour les utilisateurs gratuits, et améliorer l'application.</p>
 <h2>3. Partage des données</h2>
-<p>Nous ne vendons jamais vos données. Elles peuvent être partagées avec : <strong>Supabase</strong> (hébergement, serveurs en Europe), <strong>Google AdMob</strong> (publicités pour utilisateurs gratuits), <strong>Apple/Google</strong> (traitement des abonnements).</p>
+<p>Nous ne vendons jamais vos données. Elles peuvent être partagées avec : <strong>Supabase</strong> (hébergement, serveurs en Europe), <strong>Google AdMob</strong> (publicités pour utilisateurs gratuits), <strong>Google Sign-In / Apple Sign-In</strong> (authentification uniquement), <strong>Apple/Google</strong> (traitement des abonnements).</p>
 <h2>4. Stockage et sécurité</h2>
 <p>Vos données sont stockées sur des serveurs Supabase en Union européenne (Irlande), protégés par chiffrement en transit (TLS) et au repos. L'accès est limité par des politiques de sécurité au niveau des lignes.</p>
 <h2>5. Conservation des données</h2>
-<p>Vos données sont conservées tant que votre compte est actif. Si vous supprimez votre compte, toutes vos données seront supprimées dans un délai de 30 jours.</p>
+<p>Vos données sont conservées tant que votre compte est actif. Si vous supprimez votre compte, toutes vos données personnelles seront supprimées immédiatement. Lors de la suppression, nous conservons des données statistiques anonymisées (filière, ville, nombre de quiz complétés) qui ne permettent pas de vous identifier. Ces données sont utilisées uniquement pour améliorer l'application.</p>
 <h2>6. Droits des utilisateurs</h2>
 <p>Conformément à la loi marocaine 09-08, vous avez le droit d'accéder à vos données, de les rectifier, de supprimer votre compte et de vous opposer au traitement à des fins publicitaires. Contact : support@bidaya.ma</p>
 <h2>7. Mineurs</h2>
 <p>Bidaya est destinée aux élèves du baccalauréat (16-19 ans). Pour les utilisateurs de moins de 16 ans, le consentement d'un parent est requis. Nous ne collectons pas de données d'enfants de moins de 13 ans.</p>
 <h2>8. Publicités</h2>
-<p>Google AdMob affiche des publicités aux utilisateurs gratuits. Les abonnés Bidaya+ ne voient aucune publicité. Vous pouvez réinitialiser votre identifiant publicitaire dans les paramètres de votre appareil.</p>
+<p>Google AdMob affiche des publicités aux utilisateurs gratuits. Les abonnés Bidaya+ ne voient aucune publicité. Vous pouvez réinitialiser votre identifiant publicitaire dans les paramètres de votre appareil. Nous utilisons App Tracking Transparency (ATT) pour demander votre autorisation avant tout suivi publicitaire.</p>
 <h2>9. Notifications push</h2>
 <p>Avec votre permission, nous envoyons des notifications de rappel. Vous pouvez les désactiver dans les paramètres de l'application ou de votre appareil.</p>
 <h2>10. Modifications</h2>
@@ -404,19 +385,18 @@ Télécharger gratuitement
 <h2>11. Contact</h2>
 <p>Email : support@bidaya.ma<br>Application : Profil → Paramètres → Nous contacter</p>
 </div>
-
 <!-- TERMS PAGE -->
 <div id="terms-page" class="legal-page">
 <h1>Conditions Générales d'Utilisation</h1>
-<p class="date">Dernière mise à jour : 12 avril 2026</p>
+<p class="date">Dernière mise à jour : 14 avril 2026</p>
 <p>En utilisant l'application Bidaya, vous acceptez les présentes Conditions Générales d'Utilisation.</p>
 <h2>1. Description du service</h2>
 <p>Bidaya est une application éducative offrant aux élèves du baccalauréat marocain : des fiches de révision, des quiz interactifs, un simulateur d'examens nationaux, un outil d'orientation scolaire, un défi quotidien et un système de gamification.</p>
 <h2>2. Inscription</h2>
-<p>L'inscription est gratuite (e-mail, Google, Apple ou anonyme). Vous êtes responsable de la confidentialité de vos identifiants. Un seul compte par personne.</p>
+<p>L'inscription est gratuite (e-mail, Google ou Apple). Vous êtes responsable de la confidentialité de vos identifiants. Un seul compte par personne.</p>
 <h2>3. Offre gratuite et Bidaya+</h2>
 <p><strong>Gratuit :</strong> toutes les leçons, 3 quiz/jour, orientation basique, défi Bac en Poche, publicités.</p>
-<p><strong>Bidaya+ :</strong> quiz illimités, zéro pub, simulateur complet, statistiques détaillées, mode hors-ligne, badge premium. Tarifs : 29 DH/mois, 149 DH/an ou 149 DH (pack Bac). Renouvellement automatique sauf annulation 24h avant la fin de la période.</p>
+<p><strong>Bidaya+ :</strong> quiz illimités, zéro pub, simulateur complet, statistiques détaillées, mode hors-ligne, badge premium. Tarifs : 29.99 DH/mois ou 149.99 DH/an. L'abonnement se renouvelle automatiquement sauf annulation au moins 24h avant la fin de la période en cours. Le paiement est débité via votre compte Apple ou Google. Gérez ou annulez vos abonnements dans Réglages > Abonnements.</p>
 <h2>4. Contenu éducatif</h2>
 <p>Le contenu est fourni à titre informatif et pédagogique. Il ne remplace pas l'enseignement en classe. Les examens nationaux officiels sont des documents publics convertis en format interactif.</p>
 <h2>5. Orientation (Tawjih)</h2>
@@ -425,16 +405,17 @@ Télécharger gratuitement
 <p>L'utilisateur s'engage à ne pas utiliser l'application à des fins illégales, ne pas contourner les limitations, ne pas créer de faux comptes et ne pas reproduire le contenu.</p>
 <h2>7. Propriété intellectuelle</h2>
 <p>L'application, son design, son code et son contenu original sont protégés par le droit d'auteur. Licence d'utilisation personnelle et non exclusive.</p>
-<h2>8. Limitation de responsabilité</h2>
+<h2>8. Suppression de compte</h2>
+<p>Vous pouvez supprimer votre compte à tout moment depuis Profil → Paramètres → Supprimer mon compte. La suppression entraîne la suppression immédiate de toutes vos données personnelles. Si vous avez un abonnement Bidaya+ actif, la suppression de votre compte n'annule pas automatiquement votre abonnement — vous devez l'annuler séparément via Réglages > Abonnements.</p>
+<h2>9. Limitation de responsabilité</h2>
 <p>Bidaya est fournie "en l'état". Nous ne garantissons pas un fonctionnement ininterrompu. Bidaya ne peut être tenue responsable de résultats scolaires, décisions d'orientation ou pertes de données.</p>
-<h2>9. Résiliation</h2>
-<p>Supprimez votre compte à tout moment depuis les paramètres. Nous pouvons suspendre un compte en cas de violation des CGU.</p>
-<h2>10. Droit applicable</h2>
+<h2>10. Résiliation</h2>
+<p>Nous pouvons suspendre un compte en cas de violation des CGU.</p>
+<h2>11. Droit applicable</h2>
 <p>Ces CGU sont régies par le droit marocain. Litiges soumis aux tribunaux de Casablanca.</p>
-<h2>11. Contact</h2>
+<h2>12. Contact</h2>
 <p>Email : support@bidaya.ma<br>Application : Profil → Paramètres → Nous contacter</p>
 </div>
-
 <!-- FOOTER -->
 <footer>
 <div class="footer-inner">
@@ -467,12 +448,10 @@ Télécharger gratuitement
 </div>
 </div>
 </footer>
-
 <script>
 window.addEventListener('scroll',()=>{
 document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>50)
 });
-
 function showPage(page){
 document.getElementById('home-content').style.display='none';
 document.getElementById('privacy-page').classList.remove('active');
@@ -480,16 +459,18 @@ document.getElementById('terms-page').classList.remove('active');
 document.getElementById(page+'-page').classList.add('active');
 window.scrollTo(0,0);
 }
-
 function showHome(){
 document.getElementById('home-content').style.display='block';
 document.getElementById('privacy-page').classList.remove('active');
 document.getElementById('terms-page').classList.remove('active');
 }
-
-// Handle direct URL paths
+// Handle direct URL paths and hash
 if(window.location.pathname==='/privacy'||window.location.hash==='#privacy'){showPage('privacy')}
 if(window.location.pathname==='/terms'||window.location.hash==='#terms'){showPage('terms')}
+if(window.location.pathname==='/support'||window.location.hash==='#support'){
+  showHome();
+  setTimeout(()=>{document.getElementById('support-section').scrollIntoView({behavior:'smooth'})},100);
+}
 </script>
 </body>
 </html>
